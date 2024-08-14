@@ -1,0 +1,3 @@
+[submodule "server/yandex_protos"]
+	path = server/yandex_protos
+	url = https://github.com/ruziba3vich/yandex_protos.git

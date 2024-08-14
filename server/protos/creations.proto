@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option go_package = "./genprotos";
+
+import "google/protobuf/empty.proto";
+
+package creations;
+
+service TaxiCreationService {
+    rpc CreateTaxi(google.protobuf.Empty) returns (CreateTaxiResponse);
+}
+
+message CreateTaxiResponse {
+    string taxi_id = 1;
+}
